@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 111ms;
+    font-family: var(--fonteDefault);
+}
+
+:root {
+    --fonte01: 'Sriracha', cursive;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteDefault: "arial", san-serif;
+    
+
+}
+html{
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    font-family: var(--fonteDefault);
+    font-weight: bold;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.Negrito{
+    font-family: var(--fonte01);
+    line-height: 8vh;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.txt{
+    padding: 20px;
+    display: inline-block;
+}
+.sombra{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    max-height: 300px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte03);
+}
+.titulo{
+    font-family: var(--fonte03);
+    font-weight: 900;
+}
+#top{
+    margin: 50px;
+    text-align: center;
+}
+#top p {
+    text-align: center;
+    padding-top: 20px;
+}
+section{
+    padding-top: 10vh;
+    padding-left: 5vh;
+    padding-bottom: 10vh;
+}
+#foto01{
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#foto02{
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: .8rem;
+}
