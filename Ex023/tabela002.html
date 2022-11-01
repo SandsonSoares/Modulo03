@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,
@@ -27,6 +28,11 @@
             background-color: black;
             color: white;
         }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
         .num{
             text-align: right;
         }
@@ -36,7 +42,7 @@
             font-weight: bold;
             padding: 10px;
         }
-        tbody > tr:nth-child(2n){
+        tbody > tr:nth-child(even){
             background-color: lightgray;
         }
     </style>
